@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AgroHelp</string>
+    <string name="title_activity_main">Agro Help</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Setting</string>
+    <string name="action_notification">Notification</string>
+    <string name="action_logout">logout</string>
+    <string name="weather">Weather</string>
+    <string name="market">Market</string>
+    <string name="finance">Finance</string>
+    <string name="ask">Ask The Expert</string>
+    <string name="add">Advertisment</string>
+</resources>

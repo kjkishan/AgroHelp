@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kishanjha.agrohelp.Chat">
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="Submit your Question"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/Sub"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/square_border"
+        android:hint="Subject or Topic"
+        android:textSize="22sp" />
+
+    <EditText
+        android:textSize="22sp"
+        android:hint="Describe your porblem"
+        android:id="@+id/Mess"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/Sub"
+        android:layout_below="@+id/Sub"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/square_border"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Mess"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/square_border"
+        android:text="Submit" />
+
+
+
+</RelativeLayout>
